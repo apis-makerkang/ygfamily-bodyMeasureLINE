@@ -1,8 +1,6 @@
 var isAndroid = kendo.support.mobileOS.android;
 
-
-//var apiSite = (useLocalAPIs)?'http://localhost:5000':'https://charder-test-api.herokuapp.com/';
-var apiSite = (useLocalAPIs)?'http://localhost:5000':'https://instant-fitness-charder-api.herokuapp.com/';
+var apiSite = (useLocalAPIs)?'http://localhost:5000':'https://ygfamily-body-composition.herokuapp.com/';
 
 var measurementSource = new kendo.data.DataSource({
   transport: {
