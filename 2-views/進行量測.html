@@ -65,12 +65,11 @@
       
       var 上次測量時間Str = (上次量測時間==0)?"2020-01-01T00:00:00+8:00":上次量測時間;
       
-      var selectedStoreNum = 上次使用店面編號;
-      
-
+      var selectedStoreNum = 上次使用店面編號;            
       
       function kendoViewReady() {
         console.log( "ready!" );
+        $("#testMachineSN").text(機器序號);
         
         $("#預設常用健身房標籤").text("有根家族 "+預設常用健身房); 
         $("#所在健身房說明").text("如果目前不在 "+預設常用健身房+ " ，請到個人資料(首頁右上角圖示)修改預設常用健身房，再回來測量。");
